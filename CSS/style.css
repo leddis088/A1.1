@@ -1,0 +1,75 @@
+.index {
+    background-image: url("../Bilder/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 10px;
+    font-size: 25px;
+    font-family: "American Typewriter";
+}
+
+.navbar div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    color: lightgreen;
+}
+
+#lkwrent {
+    margin-left: auto;
+}
+
+#line {
+    color: white;
+    font-size: 25px;
+}
+
+a {
+    color: cornsilk;
+}
+
+fieldset.fahrzeugBuchen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    border-width: 0.8em;
+
+}
+
+.return {
+    flex-wrap: wrap;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+legend {
+    color: orange;
+    font-family: "fantasy";
+    font-size: 18px;
+}
+
+/* start of autos.html styling */
+
+.opelIndex {
+    display: flex;
+}
+
+.IMG {
+    display: flex;
+    flex-basis: 100%;
+    width: 150px;
+}

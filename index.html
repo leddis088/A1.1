@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="index">
+        <div class="navbar">
+            <div class="left" id="rent"><a href="index.html">Rent</a></div>
+            <div class="left" id="share"><a href="HTML/share.html">Share</a></div>
+            <div class="left" id="ride"><a href="HTML/Ride.html">Ride</a></div>
+            <div class="right" id="lkwrent"><a href="HTML/lkwrent.html">LKW Vermietung</a></div>
+            <div class="right" id="line">|</div>
+            <div class="right" id="login"><a href="HTML/Login.html">Login</a> </div>
+        </div>
+        <div class="main">
+            <form action="HTML/autos.html">
+                <fieldset class="fahrzeugBuchen">
+                    <legend>Fahrzeug buchen</legend>
+                    <div class="type">
+                        <label for="fahrzeugtype">Fahrzeugtype</label><br>
+                        <select id="fahrzeugtype">
+                            <option value="Kleinwagen">Kleinwagen</option>
+                            <option value="SUV">SUV</option>
+                            <option value="LKW">LKW</option>
+                        </select><br><br>
+                    </div>
+                    <div class="driverslicenze">
+                        <label for="driverslicence">Führerschein:</label><br>
+                        <input type="file" id="driverslicence" name="driverslicence"><br><br>
+                    </div>
+                    <div class="return">
+                        <input type="checkbox" id="return" name="return">
+                        <label for="return">Rückgabe am Abholort</label><br><br>
+                    </div>
+                    <div class="pickuptime">
+                        <label for="pickupdate">Abholzeit</label><br>
+                        <label for="pickuptime"></label>
+                        <input type="date" id="pickupdate" name="pickuptime">
+                        <input type="time" id="pickuptime" name="pickuptime"><br><br>
+                    </div>
+                    <div class="returntime">
+                        <label for="returntdate">Rückgabezeit</label><br>
+                        <label for="returntime"></label>
+                        <input type="date" id="returntdate" name="returntime">
+                        <input type="time" id="returntime" name="returntime"><br><br>
+                    </div>
+                    <div class="ensuranze">
+                        <label> Versicherung:</label><br>
+                        <input type="radio" id="Haftpflicht" name="ensuranze" value="Haftpflicht">
+                        <label for="Haftpflicht">Haftpflicht</label>
+                        <input type="radio" id="Vollkasko" name="ensuranze" value="Vollkasko">
+                        <label for="Vollkasko">Vollkasko</label><br><br>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Fahrzeug suchen">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

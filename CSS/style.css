@@ -66,8 +66,19 @@ legend {
 
 .opelIndex {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 
+    font-size: 20px;
+    color: orangered;
+}
 .IMG {
     display: flex;
     flex-basis: 100%;

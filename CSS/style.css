@@ -20,11 +20,12 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    width: 13.5%;
 }
 
 .right {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row;
 }
 
@@ -142,6 +143,24 @@ legend {
     font-size: 27px;
 }
 
+.backButton {
+    display: flex;
+    justify-content: start;
+    font-size: 25px;
+    border-color: green;
+    border-width: 3px;
+    color: green;
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.backButton:hover {
+    background-color: magenta;
+    transition: 0.5s;
+    font-size: 27px; 
+}
+
 /* conformation style */
 .conformationText {
     display: flex;
@@ -160,7 +179,7 @@ legend {
     flex-direction: column;
     flex-basis: content;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkred;
     border-radius: 20px;
     border-style: dashed;
@@ -173,7 +192,7 @@ legend {
     flex-wrap: wrap;
     text-align: center;
     color: orangered;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .copyright {

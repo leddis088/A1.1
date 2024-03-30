@@ -7,12 +7,16 @@
     </head>
     <body class="index">
         <div class="navbar">
-            <div class="left" id="rent"><a href="index.html">Rent</a></div>
-            <div class="left" id="share"><a href="HTML/share.html">Share</a></div>
-            <div class="left" id="ride"><a href="HTML/Ride.html">Ride</a></div>
-            <div class="right" id="lkwrent"><a href="HTML/lkwrent.html">LKW Vermietung</a></div>
-            <div class="right" id="line">|</div>
-            <div class="right" id="login"><a href="HTML/Login.html">Login</a> </div>
+            <div class="left">
+                <div class= "content" id="rent"><a href="index.html">Rent</a></div>
+                <div class= "content" id="share"><a href="HTML/share.html">Share</a></div>
+                <div class= "content" id="ride"><a href="HTML/Ride.html">Ride</a></div>
+            </div> 
+            <div class="right">
+                <div class= "content" id="lkwrent"><a href="HTML/imprint.html">Impressum</a></div>
+                <div class= "content" id="line">|</div>
+                <div class= "content" id="login"><a href="HTML/Login.html">Login</a> </div>
+            </div>
         </div>
         <div class="main">
             <form action="HTML/autos.html">
@@ -28,7 +32,7 @@
                     </div>
                     <div class="driverslicenze">
                         <label for="driverslicence">Führerschein:</label><br>
-                        <input type="file" id="driverslicence" name="driverslicence"><br><br>
+                        <input type="file" id="driverslicence" name="driverslicence" required><br><br>
                     </div>
                     <div class="return">
                         <input type="checkbox" id="return" name="return">
@@ -37,18 +41,18 @@
                     <div class="pickuptime">
                         <label for="pickupdate">Abholzeit</label><br>
                         <label for="pickuptime"></label>
-                        <input type="date" id="pickupdate" name="pickuptime">
-                        <input type="time" id="pickuptime" name="pickuptime"><br><br>
+                        <input type="date" id="pickupdate" name="pickuptime" required>
+                        <input type="time" id="pickuptime" name="pickuptime" required><br><br>
                     </div>
                     <div class="returntime">
                         <label for="returntdate">Rückgabezeit</label><br>
                         <label for="returntime"></label>
-                        <input type="date" id="returntdate" name="returntime">
-                        <input type="time" id="returntime" name="returntime"><br><br>
+                        <input type="date" id="returntdate" name="returntime" required>
+                        <input type="time" id="returntime" name="returntime" required><br><br>
                     </div>
                     <div class="ensuranze">
                         <label> Versicherung:</label><br>
-                        <input type="radio" id="Haftpflicht" name="ensuranze" value="Haftpflicht">
+                        <input type="radio" id="Haftpflicht" name="ensuranze" value="Haftpflicht" required>
                         <label for="Haftpflicht">Haftpflicht</label>
                         <input type="radio" id="Vollkasko" name="ensuranze" value="Vollkasko">
                         <label for="Vollkasko">Vollkasko</label><br><br>

@@ -8,24 +8,32 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     background-color: black;
     border-radius: 5px;
     border-width: 10px;
     font-size: 25px;
     font-family: "American Typewriter";
+    justify-content: space-between;
 }
 
-.navbar div:not(:last-child) {
-    margin-right: 10px;
+.left { 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content {
+    font-size: 30px;
 }
 
 .navbar a:hover {
     color: lightgreen;
-}
-
-#lkwrent {
-    margin-left: auto;
 }
 
 #line {
@@ -64,23 +72,126 @@ legend {
 
 /* start of autos.html styling */
 
-.opelIndex {
+.carsIndex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .text {
+    font-size: 20px;
+    color: orangered;
+}
+
+.diescription {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+    font-size: 20px;
+}
+
+.price {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-
-    font-size: 20px;
-    color: orangered;
+    font-size: 17px;
+    color: greenyellow;
 }
 .IMG {
     display: flex;
     flex-basis: 100%;
     width: 150px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.rentButton {
+    font-size: 25px;
+    border-color: red;
+    border-width: 3px;
+    color: red;
+    background-color: darkgray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buyButton {
+    font-size: 25px;
+    border-color: blue;
+    border-width: 3px;
+    color: blue;
+    background-color: darkgrey;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.buyButton:hover {
+    background-color: yellow;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+.rentButton:hover {
+    background-color: cyan;
+    transition: 0.5s;
+    font-size: 27px;
+}
+
+/* conformation style */
+.conformationText {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellowgreen;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+/* service text */
+.serviceText {
+    display: flex;
+    flex-direction: column;
+    flex-basis: content;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+    border-radius: 20px;
+    border-style: dashed;
+}
+
+/* imprint style */
+.imprint > div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    color: orangered;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.copyright {
+   font-size: 20px;
+}
+
+.copyHeading {
+    font-size: 30px;
+}
+
+.imprintHeading {
+    font-size: 20px;
+}
+
+.contactHeading {
+    font-size: 30px;
+}
+
+.contactinformation {
+    font-size: 20px;
 }

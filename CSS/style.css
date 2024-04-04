@@ -1,3 +1,4 @@
+/*Style index.html*/
 .index {
     background-image: url("../Bilder/background.jpg");
     background-repeat: no-repeat;
@@ -72,6 +73,32 @@ legend {
 }
 
 /* start of autos.html styling */
+
+.categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inhalt {
+    display: flex;
+    flex-direction: column;
+}
+
+.textMen {
+    font-size: 20px;
+    font-family: "Copperplate", fantasy;
+    color: lightgray;
+}
+
+.choice {
+    font-size: 15px;
+    font-family: "Courier New", monospace;
+    border-radius: 5px;
+    border-color: red;
+    color: lightcyan;
+    background-color: transparent;
+}
 
 .carsIndex {
     display: flex;
@@ -167,7 +194,7 @@ legend {
     flex-direction: column;
     flex-basis: content;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Times New Roman", serif;
     color: yellowgreen;
     border-radius: 20px;
     border-style: dashed;
@@ -179,7 +206,7 @@ legend {
     flex-direction: column;
     flex-basis: content;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"Franklin Gothic Medium", sans-serif;
     color: darkred;
     border-radius: 20px;
     border-style: dashed;
@@ -192,7 +219,7 @@ legend {
     flex-wrap: wrap;
     text-align: center;
     color: orangered;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Arial", sans-serif;
 }
 
 .copyright {

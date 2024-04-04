@@ -13,7 +13,7 @@
     border-radius: 5px;
     border-width: 10px;
     font-size: 25px;
-    font-family: "American Typewriter";
+    font-family: "American Typewriter", monospace;
     justify-content: space-between;
 }
 
@@ -26,7 +26,7 @@
 
 .right {
     display: flex;
-    justify-content: flex-end;
+    
     flex-direction: row;
 }
 
@@ -100,6 +100,11 @@ legend {
     background-color: transparent;
 }
 
+.carsFS {
+    border-radius: 15px;
+    background-color: rgba(0,10,0,.7);
+}
+
 .carsIndex {
     display: flex;
     flex-direction: row;
@@ -109,13 +114,13 @@ legend {
 
 .text {
     font-size: 20px;
-    color: orangered;
+    color: lightblue;
 }
 
 .diescription {
     display: flex;
     flex-direction: column;
-    color: orange;
+    color: navajowhite;
     font-size: 20px;
 }
 
@@ -125,7 +130,7 @@ legend {
     flex-direction: row;
     justify-content: space-between;
     font-size: 17px;
-    color: greenyellow;
+    color: whitesmoke;
 }
 .IMG {
     display: flex;
@@ -218,8 +223,13 @@ legend {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    color: orangered;
-    font-family:"Arial", sans-serif;
+}
+
+.imprintFS {
+    border-radius: 20px;
+    background-color: rgba(0,10,10, .6);
+    color: navajowhite;
+    font-family:"Copperplate", "Times New Roman",sans-serif;
 }
 
 .copyright {
